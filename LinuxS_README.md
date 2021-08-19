@@ -80,3 +80,18 @@ unset SSH
 ∙ OS별 주요 실행파일에 대한 SUID/SGID 설정 여부 확인 후 불필요한 파일 발견 시 제거
 ```
 
+<br>
+
+(진단 항목 U-20) Anonymous FTP 비활성화 보안 요구사항
+
+```
+[보안대책] 판단기준
+∙양호 : Anonymous FTP 접속을 차단한 경우
+∙취약 : Anonymous FTP 접속을 차단하지 않은 경우
+```
+
+```
+[보안대책] 조치방법
+Anonymous FTP를 사용하지 않는 경우, 차단 설정 적용
+```
+
